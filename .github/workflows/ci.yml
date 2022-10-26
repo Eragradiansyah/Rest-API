@@ -20,3 +20,5 @@ jobs:
           distribution: 'adopt'
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
+      - name: Rest API Test
+        run: mvn clean verify
