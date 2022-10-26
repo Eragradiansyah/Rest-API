@@ -24,7 +24,6 @@ jobs:
    - name: Rest API Automation
      need: Build
      runs-on: ubuntu-latest
-
      steps:
       - uses: actions/checkout@v3
       - name: Rest API Test
